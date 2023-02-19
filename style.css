@@ -1,0 +1,489 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 14px/18px Arial, sans-serif;
+	height: 100%;
+	overflow-x:hidden;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.slider {
+	height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.slider-content {
+	height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.slide {
+	height: 100%;
+  width: 100%;
+  display:table;
+}
+.slide > div {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color:#fff;
+	text-shadow:0 1px 4px #000;
+}
+.slide > div h2 {
+	font-size: 6em;
+	line-height: 2em;
+	font-weight: bold;
+}
+.slide > div p {
+	font-size: 22px;
+	line-height: 1.4em;
+	font-style: italic;
+}
+
+.sl1 {
+	background: url(img/pushkin.jpg) no-repeat;
+	background-size: cover;
+}
+.sl2 {
+	background: url(img/esenin.jpg) no-repeat;
+	background-size: cover;
+}
+.sl3 {
+	background: url(img/mayakovskiy.jpg) no-repeat;
+	background-size: cover;
+}
+.sl4 {
+	background: url(img/lermontov.jpg) no-repeat;
+	background-size: cover;
+}
+.sl5 {
+	background: url(img/restorant.jpg) no-repeat;
+	background-size: cover;
+}
+.sl6 {
+	background: url(img/medsestra.jpg) no-repeat;
+	background-size: cover;
+}
+.sl7 {
+	background: url(img/ferma.jpg) no-repeat;
+	background-size: cover;
+}
+.sl8 {
+	background: url(img/ferik.jpg) no-repeat;
+	background-size: cover;
+}
+.sl9 {
+	background: url(img/doktor.jpg) no-repeat;
+	background-size: cover;
+}
+.more {
+	color: #000;
+	text-decoration: none;
+	padding: 7px 15px;
+	background: #FFD800;
+	text-shadow:none;
+	line-height: 8em;
+	font-size:16px;
+}
+.more:hover {
+	background: #FFBB02;
+
+}
+.slider-controls {
+	position:absolute;
+	left:-663px;
+	bottom:30px;
+	text-align:center;
+	width: 100%;
+}
+.slider-controls .control-slide {
+	margin:2px;
+	display:inline-block;
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	text-indent:-9999px;
+	background:#fff;
+	border-radius: 50%;
+	-webkit-border-radius:50%;
+}
+.slider-controls .control-slide:hover {
+	background: #FFED87;
+	cursor: pointer;
+}
+.slider-controls .control-slide.active {
+	background: #FFD800;
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	width:100%;
+	padding-top:40px;
+
+}
+.content main {
+	width:1000px;
+	margin:0 auto;
+	height:auto;
+	line-height:1.4em;
+}
+.content main p {
+	margin-bottom:20px;
+}
+
+
+.meinzayavka{
+width:160px;
+height:65px;			
+position:absolute;
+top:12px;
+left:1443px;		
+cursor:pointer;
+background-color:rgba(255, 99, 71, 0.9);	
+ border-radius:40px;
+ -moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ -webkit-transition: all 0.5s ease-out;	 
+}
+.meinzayavka:hover{
+width:160px;
+height:65px;			
+position:absolute;
+top:12px;
+left:1443px;		
+cursor:pointer;
+background-color:#2BF820;	
+ border-radius:40px;
+ -moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ -webkit-transition: all 0.5s ease-out;	 
+}
+.meinzayavka p{
+color:#ffffff;
+text-align:center;
+font-size:22px;
+font-family:bold;
+margin-top:22px;
+}
+
+.mainblackblock{
+width:100%;
+height:956px;			
+position:absolute;	
+background-color:#000000;	
+top:0px;
+left:0px;			
+opacity: 0.4;	
+}
+
+.meinpolska05px{
+width:1497px;
+height:0.2px;		
+position:absolute;
+top:90px;
+left:105px;
+background: #dddddd;
+border-radius:30px;
+opacity:0.4;	 
+}
+
+.logomein{
+width:200px;
+height:110px;			
+position:absolute;
+top:-10px;
+left:97px;	
+}
+
+
+
+
+
+
+#fraza22{
+position:absolute;
+	top:690px;
+	 left:102px;	
+	font-size:60px;
+	color:#fff;
+	text-decoration: none;
+font-family: "bold";
+
+}
+#fraza3{
+position:absolute;
+	top:749px;
+    left:102px;		
+	font-size:18px;
+	color:#FEFEFE;
+	text-decoration: none;
+font-family:Courier New;
+
+}
+#fraza4{
+position:absolute;
+	top:776px;
+	 left:102px;			
+	font-size:18px;
+	color:#FEFEFE;
+	text-decoration: none;
+font-family:Courier New;
+
+}
+#fraza5{
+position:absolute;
+	top:803px;
+	 left:102px;		
+	font-size:18px;
+	color:#FEFEFE;
+	text-decoration: none;
+font-family:Courier New;
+
+}
+#fraza6{
+position:absolute;
+	top:830px;
+	 left:102px;		
+	font-size:18px;
+	color:#FEFEFE;
+	text-decoration: none;
+font-family:Courier New;
+
+}
+#fraza7{
+position:absolute;
+	top:857px;
+	 left:102px;	
+	font-size:18px;
+	color:#FEFEFE;
+	text-decoration: none;
+font-family:Courier New;
+}
+
+
+#n1{
+position:absolute;		
+top:15px;
+left:670px;	
+width:150px;
+height:65px;
+-moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ -webkit-transition: all 0.5s ease-out;
+cursor:pointer;	 
+}
+#n1:hover p{
+text-align:center;
+color:#ffffff;
+font-size:20px;	
+margin-top:19px;
+font-family:arial;
+opacity:0.99;	
+}
+#n1 p{
+text-align:center;
+color:#ffffff;
+font-size:20px;	
+margin-top:19px;
+-moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ -webkit-transition: all 0.5s ease-out;	
+ font-family:arial;
+opacity:0.6;
+}
+
+#n2{
+position:absolute;		
+top:15px;
+left:820px;	
+width:150px;
+height:65px;
+-moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ -webkit-transition: all 0.5s ease-out;
+cursor:pointer;	 
+}
+#n2:hover p{
+text-align:center;
+color:#ffffff;
+opacity:0.99;
+font-size:20px;		
+margin-top:19px;
+font-family:arial;		
+}
+#n2 p{
+text-align:center;
+color:#ffffff;
+font-size:20px;	
+margin-top:19px;
+-moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ -webkit-transition: all 0.5s ease-out;	
+ font-family:arial;
+opacity:0.6;	
+}
+#n3{
+position:absolute;		
+top:15px;
+left:970px;	
+width:150px;
+height:65px;
+-moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ -webkit-transition: all 0.5s ease-out;
+cursor:pointer;	 
+}
+#n3:hover p{
+text-align:center;
+color:#ffffff;
+opacity:0.99;
+font-size:20px;	
+margin-top:19px;
+font-family:arial;		
+}
+#n3 p{
+text-align:center;
+color:#ffffff;
+font-size:20px;	
+margin-top:19px;
+-moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ -webkit-transition: all 0.5s ease-out;	
+ font-family:arial;
+opacity:0.6;	
+}
+
+#n4{
+position:absolute;		
+top:15px;
+left:1120px;	
+width:150px;
+height:65px;
+-moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ -webkit-transition: all 0.5s ease-out;
+cursor:pointer;	 
+}
+#n4:hover p{
+text-align:center;
+color:#ffffff;
+opacity:0.99;
+font-size:20px;		
+margin-top:19px;
+font-family:arial;		
+}
+#n4 p{
+text-align:center;
+color:#ffffff;
+font-size:20px;	
+margin-top:19px;
+-moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ -webkit-transition: all 0.5s ease-out;	
+ font-family:arial;
+opacity:0.6;	
+}
+
+#n5{
+position:absolute;		
+top:15px;
+left:1270px;	
+width:150px;
+height:65px;
+-moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ -webkit-transition: all 0.5s ease-out;
+cursor:pointer;	 
+}
+#n5:hover p{
+text-align:center;
+color:#ffffff;
+opacity:0.99;
+font-size:20px;	
+margin-top:19px;
+font-family:arial;		
+}
+#n5 p{
+text-align:center;
+color:#ffffff;
+font-size:20px;		
+margin-top:19px;
+-moz-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ -webkit-transition: all 0.5s ease-out;	
+ font-family:arial;
+opacity:0.6;	
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 1.5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+   background: #dddddd; 
+   
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000000; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #F51E0E; 
+}
